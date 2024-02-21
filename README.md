@@ -1,8 +1,15 @@
-# React + Vite
+# AI Doctor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<h3>Yuklab olib</h3>
+<p>Zip fayldan ochib</p> <p>https://github.com/nosirbek030381/AIDoctor/archive/refs/heads/main.zip</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>Avval nodeJS bor yo'qligini tekshiring. Bo'lmasa o'zingizni operation tizimingizga moslab o'rnatib oling</p> <p>https://nodejs.org/en</p>
+
+
+```npm --version``` <br><br>
+```npm install```
+<br><br>
+```npm run dev```
+
+# Tashrifingiz uchun tashakkur
