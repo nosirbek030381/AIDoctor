@@ -7,7 +7,7 @@ const Manual = () => {
 			<h1 className='text-4xl md:text-6xl font-semibold'>Qo&apos;llanma</h1>
 			<div>
 				<iframe
-					className='md:w-[1280px] md:h-[700px] sm:w-[560px] sm:h-[316px] w-[450px] h-[300px] rounded-lg shadow-lg'
+					className='lg:w-[1280px] lg:h-[700px] md:w-[560px] md:h-[316px] w-[450px] h-[300px] rounded-lg shadow-lg'
 					src='https://www.youtube-nocookie.com/embed/mCw9h0jIuqk?si=ZV9l85QBPpZyLJMr'
 					title='YouTube video player'
 					allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
