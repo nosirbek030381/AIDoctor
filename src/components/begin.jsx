@@ -1,27 +1,26 @@
-import { useState } from 'react';
 import { cards } from '../helper';
 
 const Begin = () => {
-	const [isModalOpen, setIsModalOpen] = useState(false);
-	const [selectedFiles, setSelectedFiles] = useState([]);
+	// const [isModalOpen, setIsModalOpen] = useState(false);
+	// const [selectedFiles, setSelectedFiles] = useState([]);
 
-	const openModal = () => {
-		setIsModalOpen(true);
-	};
+	// const openModal = () => {
+	// 	setIsModalOpen(true);
+	// };
 
-	const closeModal = () => {
-		setIsModalOpen(false);
-	};
+	// const closeModal = () => {
+	// 	setIsModalOpen(false);
+	// };
 
-	const handleFileChange = e => {
-		const files = Array.from(e.target.files);
-		setSelectedFiles(files);
-	};
+	// const handleFileChange = e => {
+	// 	const files = Array.from(e.target.files);
+	// 	setSelectedFiles(files);
+	// };
 
-	const handleUpload = () => {
-		console.log(selectedFiles);
-		closeModal();
-	};
+	// const handleUpload = () => {
+	// 	console.log(selectedFiles);
+	// 	closeModal();
+	// };
 
 	return (
 		<div className=''>
@@ -45,18 +44,19 @@ const Begin = () => {
 							</h5>
 						</div>
 						<div className='p-6 pt-0'>
-							<button
-								onClick={openModal}
-								className='align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none'
-								type='button'
-							>
-								Yuklash
-							</button>
+							<a href={'https://tashxis.streamlit.app/'}>
+								<button
+									className='align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none'
+									type='button'
+								>
+									Yuklash
+								</button>
+							</a>
 						</div>
 					</div>
 				))}
 			</div>
-			{isModalOpen && (
+			{/* {isModalOpen && (
 				<div className='fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none'>
 					<div className='relative w-auto max-w-3xl mx-auto my-6'>
 						<div className='relative flex flex-col w-full bg-white border-0 rounded-lg shadow-lg outline-none focus:outline-none'>
@@ -99,8 +99,8 @@ const Begin = () => {
 						</div>
 					</div>
 				</div>
-			)}
-			{isModalOpen && <div className='fixed inset-0 z-40 bg-black opacity-25'></div>}
+			)} */}
+			{/* {isModalOpen && <div className='fixed inset-0 z-40 bg-black opacity-25'></div>} */}
 		</div>
 	);
 };
