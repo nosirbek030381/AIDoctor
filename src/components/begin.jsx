@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { cards } from '../helper';
 
 const Begin = () => {
@@ -26,12 +27,12 @@ const Begin = () => {
 		<div className=''>
 			<div
 				id='begin'
-				className={`w-full bg-[url('./assets/background.svg')] justify-center items-center flex flex-1 flex-col md:flex-row relative flex-wrap space-x-5`}
+				className={`w-full bg-[url('./assets/background.svg')] justify-center items-center flex flex-1 flex-col md:flex-row relative flex-wrap space-x-5 `}
 			>
 				{cards.map(card => (
 					<div
 						key={card.id}
-						className='relative  flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 rounded-br-[50px] justify-center'
+						className='relative  flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 rounded-br-[50px] justify-center mb-7'
 					>
 						<div className='p-6'>
 							<img
@@ -44,14 +45,14 @@ const Begin = () => {
 							</h5>
 						</div>
 						<div className='p-6 pt-0'>
-							<a href={'https://tashxis.streamlit.app/'}>
+							<Link to={card.url} target={card.target}>
 								<button
 									className='align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none'
 									type='button'
 								>
 									Yuklash
 								</button>
-							</a>
+							</Link>
 						</div>
 					</div>
 				))}
