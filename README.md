@@ -1,5 +1,9 @@
+
 # AI Doctor
 
+# Demo 
+
+https://tashxis.vercel.app/
 
 <h3>Yuklab olib</h3>
 <p>Zip fayldan ochib</p> <p>https://github.com/nosirbek030381/AIDoctor/archive/refs/heads/main.zip</p>
